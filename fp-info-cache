@@ -1,0 +1,176 @@
+40568604901511
+archive
+CP_EIA-3528-15_AVX-H
+Tantalum Capacitor SMD AVX-H (3528-15 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+archive
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+archive
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+archive
+D_SMB
+Diode SMB (DO-214AA)
+Diode SMB (DO-214AA)
+0
+2
+2
+archive
+LED_0603_1608Metric
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+archive
+L_0402_1005Metric
+Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+archive
+L_0603_1608Metric
+Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+archive
+L_1206_3216Metric
+Inductor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+archive
+MountingHole_3.2mm_M3_Pad_Via
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+9
+1
+archive
+Oscillator_SMD_Fordahl_DFAS15-4Pin_5.0x3.2mm
+Ultraminiature Crystal Clock Oscillator TXCO Fordahl DFA S15-OV/UOV, http://www.iqdfrequencyproducts.com/products/details/iqxo-70-11-30.pdf, 5.0x3.2mm^2 package
+SMD SMT crystal oscillator
+0
+4
+4
+archive
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+archive
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+archive
+PinHeader_1x06_P2.54mm_Vertical
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+archive
+PinHeader_2x05_P1.27mm_Vertical_SMD
+surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x05 1.27mm double row
+0
+10
+10
+archive
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+archive
+SMA_Molex_73251-1153_EdgeMount_Horizontal
+Molex SMA RF Connectors, Edge Mount, (http://www.molex.com/pdm_docs/sd/732511150_sd.pdf)
+sma edge
+0
+11
+2
+archive
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+archive
+SOT-223-3_TabPin2
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+3
+archive
+SOT-363_SC-70-6
+SOT-363, SC-70-6
+SOT-363 SC-70-6
+0
+6
+6
+archive
+TO-263-3_TabPin2
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
+0
+8
+3
+openlst
+Qorvo_LGA_28
+
+
+0
+33
+29
+openlst
+Qorvo_LGA_28_ThermalVias
+
+
+0
+42
+29
+openlst
+SAW-8_3.8mm
+
+
+0
+8
+8
+openlst
+TI_CC_QFN36
+
+
+0
+46
+37
+openlst
+VIA-10mil
+
+
+0
+1
+1

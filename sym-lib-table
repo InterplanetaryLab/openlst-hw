@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name openlst-hw)(type Legacy)(uri ${KIPRJMOD}/lib_sch/openlst-hw.lib)(options "")(descr ""))
+)

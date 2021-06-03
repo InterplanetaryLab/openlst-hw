@@ -1,3 +1,13 @@
+
+Interplanetary Initiative Lab Fork - OpenLST Reference Hardware
+==========================
+Due to the Qorvo Power Amplifier in the original design being deprecated, 
+the power amplifier was swapped to the newer Qorovo RFFM6406. 
+This was more of just a name change as the pinout is identical and the 
+electrical specifications of both chips are nearly identical.
+
+*Note - Gerbel files should not need to be updated *
+
 OpenLST Reference Hardware
 ==========================
 

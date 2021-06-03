@@ -1,5 +1,42 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 2
+LIBS:openlst-hw
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ftdi
+LIBS:Oscillators
+LIBS:rfcom
+LIBS:openlst-hw-cache
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -14,7 +51,7 @@ Comment3 "This work is licensed under a Creative Commons Attribution-ShareAlike 
 Comment4 "Copyright 2018 Planet Labs Inc"
 $EndDescr
 $Comp
-L openlst-hw:GND #PWR01
+L GND #PWR01
 U 1 1 5A73DBCE
 P 10350 3700
 F 0 "#PWR01" H 10350 3450 50  0001 C CNN
@@ -25,7 +62,7 @@ F 3 "" H 10350 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR02
+L GND #PWR02
 U 1 1 5A741B16
 P 8900 4350
 F 0 "#PWR02" H 8900 4100 50  0001 C CNN
@@ -36,7 +73,7 @@ F 3 "" H 8900 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR03
+L GND #PWR03
 U 1 1 5A813A49
 P 5500 3700
 F 0 "#PWR03" H 5500 3450 50  0001 C CNN
@@ -47,7 +84,7 @@ F 3 "" H 5500 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:L L6
+L L L6
 U 1 1 5A875D2F
 P 4250 3250
 F 0 "L6" V 4350 3250 50  0000 C CNN
@@ -62,7 +99,7 @@ F 7 "490-1151-1-ND" H 4350 3350 50  0001 C CNN "SupplierPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L openlst-hw:GND #PWR04
+L GND #PWR04
 U 1 1 5A876ACA
 P 3700 2700
 F 0 "#PWR04" H 3700 2450 50  0001 C CNN
@@ -73,7 +110,7 @@ F 3 "" H 3700 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:Conn_Coaxial J6
+L Conn_Coaxial J6
 U 1 1 5A9A1FB2
 P 10350 3500
 F 0 "J6" H 10360 3620 50  0000 C CNN
@@ -88,7 +125,7 @@ F 7 "WM5534-ND" H 10360 3720 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR05
+L GND #PWR05
 U 1 1 5A9A1FB3
 P 10350 3700
 F 0 "#PWR05" H 10350 3450 50  0001 C CNN
@@ -99,7 +136,7 @@ F 3 "" H 10350 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C45
+L C_Small C45
 U 1 1 5A9A1FB6
 P 10050 3500
 F 0 "C45" V 9900 3400 50  0000 L CNN
@@ -114,7 +151,7 @@ F 7 "399-11552-1-ND" H 9900 3500 50  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:GND #PWR06
+L GND #PWR06
 U 1 1 5A9A1FCD
 P 8900 4350
 F 0 "#PWR06" H 8900 4100 50  0001 C CNN
@@ -125,7 +162,7 @@ F 3 "" H 8900 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C25
+L C_Small C25
 U 1 1 5A9A1FD3
 P 4600 3100
 F 0 "C25" V 4700 3050 50  0000 L CNN
@@ -140,7 +177,7 @@ F 7 "399-11552-1-ND" H 4700 3150 50  0001 C CNN "SupplierPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L openlst-hw:C_Small C24
+L C_Small C24
 U 1 1 5A9A1FD5
 P 4250 2950
 F 0 "C24" V 4350 2900 50  0000 L CNN
@@ -155,7 +192,7 @@ F 7 "490-3097-1-ND" H 4350 3000 50  0001 C CNN "SupplierPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L openlst-hw:L L5
+L L L5
 U 1 1 5A9A1FD6
 P 4050 2650
 F 0 "L5" H 4150 2750 50  0000 C CNN
@@ -170,7 +207,7 @@ F 7 "490-1151-1-ND" H 4150 2850 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C21
+L C_Small C21
 U 1 1 5A9A1FD7
 P 3700 2600
 F 0 "C21" H 3500 2550 50  0000 L CNN
@@ -185,7 +222,7 @@ F 7 "399-11552-1-ND" H 3500 2650 50  0001 C CNN "SupplierPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:GND #PWR07
+L GND #PWR07
 U 1 1 5A9A1FD9
 P 3700 2700
 F 0 "#PWR07" H 3700 2450 50  0001 C CNN
@@ -196,7 +233,7 @@ F 3 "" H 3700 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR08
+L GND #PWR08
 U 1 1 5A9A1FDA
 P 4050 3600
 F 0 "#PWR08" H 4050 3350 50  0001 C CNN
@@ -207,7 +244,7 @@ F 3 "" H 4050 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR09
+L GND #PWR09
 U 1 1 5A9A1FDE
 P 2850 5500
 F 0 "#PWR09" H 2850 5250 50  0001 C CNN
@@ -218,7 +255,7 @@ F 3 "" H 2850 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:LM1117-3.3 U1
+L LM1117-3.3 U1
 U 1 1 5A9BB0BA
 P 5250 7200
 F 0 "U1" H 5100 7325 50  0000 C CNN
@@ -233,7 +270,7 @@ F 7 "LM1117IMP-3.3/NOPBCT-ND" H 5250 7200 60  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:+5V #PWR010
+L +5V #PWR010
 U 1 1 5A9BB7F3
 P 4750 7100
 F 0 "#PWR010" H 4750 6950 50  0001 C CNN
@@ -244,7 +281,7 @@ F 3 "" H 4750 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR011
+L GND #PWR011
 U 1 1 5A9BBC6C
 P 4750 7600
 F 0 "#PWR011" H 4750 7350 50  0001 C CNN
@@ -255,7 +292,7 @@ F 3 "" H 4750 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C4
+L C_Small C4
 U 1 1 5A9BBEAE
 P 4750 7500
 F 0 "C4" H 4760 7570 50  0000 L CNN
@@ -270,7 +307,7 @@ F 7 "490-12283-1-ND" H 4760 7670 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C13
+L C_Small C13
 U 1 1 5A9BCAEA
 P 5700 7500
 F 0 "C13" H 5710 7570 50  0000 L CNN
@@ -285,7 +322,7 @@ F 7 "490-12283-1-ND" H 5710 7670 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C15
+L C_Small C15
 U 1 1 5A9BCC29
 P 5950 7500
 F 0 "C15" H 5960 7570 50  0000 L CNN
@@ -300,7 +337,7 @@ F 7 "478-9382-1-ND" H 5960 7670 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR012
+L GND #PWR012
 U 1 1 5A9BD9A3
 P 5250 7600
 F 0 "#PWR012" H 5250 7350 50  0001 C CNN
@@ -311,7 +348,7 @@ F 3 "" H 5250 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR013
+L GND #PWR013
 U 1 1 5A9BDEEE
 P 5700 7600
 F 0 "#PWR013" H 5700 7350 50  0001 C CNN
@@ -322,7 +359,7 @@ F 3 "" H 5700 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR014
+L GND #PWR014
 U 1 1 5A9BDFFB
 P 5950 7600
 F 0 "#PWR014" H 5950 7350 50  0001 C CNN
@@ -333,7 +370,7 @@ F 3 "" H 5950 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:Conn_Coaxial_Power J1
+L Conn_Coaxial_Power J1
 U 1 1 5A9CE3EE
 P 1100 7200
 F 0 "J1" V 900 7150 50  0000 C CNN
@@ -344,7 +381,7 @@ F 3 "" H 1100 7150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:GND #PWR015
+L GND #PWR015
 U 1 1 5A9CF061
 P 800 7550
 F 0 "#PWR015" H 800 7300 50  0001 C CNN
@@ -355,7 +392,7 @@ F 3 "" H 800 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:D D3
+L D D3
 U 1 1 5A9CF19A
 P 1250 7400
 F 0 "D3" H 1250 7500 50  0000 C CNN
@@ -370,7 +407,7 @@ F 7 "497-2465-1-ND" H 1250 7400 60  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:Ferrite_Bead L2
+L Ferrite_Bead L2
 U 1 1 5A9D09A5
 P 1750 7200
 F 0 "L2" V 1600 7225 50  0000 C CNN
@@ -385,7 +422,7 @@ F 7 "240-2407-1-ND" V 1750 7200 60  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:CP1_Small C14
+L CP1_Small C14
 U 1 1 5A9D0EB4
 P 2300 7350
 F 0 "C14" H 2310 7420 50  0000 L CNN
@@ -400,7 +437,7 @@ F 7 "478-5231-1-ND" H 2310 7520 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR016
+L GND #PWR016
 U 1 1 5A9D1A0C
 P 2300 7550
 F 0 "#PWR016" H 2300 7300 50  0001 C CNN
@@ -411,7 +448,7 @@ F 3 "" H 2300 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:+5V #PWR017
+L +5V #PWR017
 U 1 1 5A9D1D3C
 P 2300 7100
 F 0 "#PWR017" H 2300 6950 50  0001 C CNN
@@ -422,7 +459,7 @@ F 3 "" H 2300 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR018
+L GND #PWR018
 U 1 1 5A9D52BA
 P 1250 7550
 F 0 "#PWR018" H 1250 7300 50  0001 C CNN
@@ -433,7 +470,7 @@ F 3 "" H 1250 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:LT1086-3.6 U3
+L LT1086-3.6 U3
 U 1 1 5B247437
 P 3400 7200
 F 0 "U3" H 3250 7325 50  0000 C CNN
@@ -448,7 +485,7 @@ F 7 "LT1086CM-3.6#PBF-ND" H 3250 7425 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR019
+L GND #PWR019
 U 1 1 5B248599
 P 3000 7500
 F 0 "#PWR019" H 3000 7250 50  0001 C CNN
@@ -459,7 +496,7 @@ F 3 "" H 3000 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR020
+L GND #PWR020
 U 1 1 5B2486E5
 P 3400 7500
 F 0 "#PWR020" H 3400 7250 50  0001 C CNN
@@ -470,7 +507,7 @@ F 3 "" H 3400 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR021
+L GND #PWR021
 U 1 1 5B248831
 P 3800 7500
 F 0 "#PWR021" H 3800 7250 50  0001 C CNN
@@ -481,7 +518,7 @@ F 3 "" H 3800 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:+5V #PWR022
+L +5V #PWR022
 U 1 1 5B248B29
 P 3000 7100
 F 0 "#PWR022" H 3000 6950 50  0001 C CNN
@@ -492,7 +529,7 @@ F 3 "" H 3000 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:VCC_3V6 #PWR023
+L VCC_3V6 #PWR023
 U 1 1 5B249DF9
 P 3950 7100
 F 0 "#PWR023" H 3950 6950 50  0001 C CNN
@@ -503,7 +540,7 @@ F 3 "" H 3950 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C46
+L C_Small C46
 U 1 1 5B24D061
 P 10000 1800
 F 0 "C46" H 10010 1870 50  0000 L CNN
@@ -518,7 +555,7 @@ F 7 "1276-6524-6-ND" H 10010 1970 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR024
+L GND #PWR024
 U 1 1 5B25391C
 P 8600 2200
 F 0 "#PWR024" H 8600 1950 50  0001 C CNN
@@ -529,7 +566,7 @@ F 3 "" H 8600 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C44
+L C_Small C44
 U 1 1 5A9A1FB7
 P 9800 1800
 F 0 "C44" H 9810 1870 50  0000 L CNN
@@ -544,7 +581,7 @@ F 7 "1276-6524-6-ND" H 9810 1970 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:PE4259 U6
+L PE4259 U6
 U 1 1 5B25CB82
 P 5500 3100
 F 0 "U6" H 5150 3550 60  0000 C CNN
@@ -559,7 +596,7 @@ F 7 "1046-1011-1-ND" H 5500 3100 60  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C38
+L C_Small C38
 U 1 1 5B261679
 P 6750 2700
 F 0 "C38" V 6850 2650 50  0000 L CNN
@@ -574,7 +611,7 @@ F 7 "399-11552-1-ND" H 6850 2750 50  0001 C CNN "SupplierPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L openlst-hw:C_Small C39
+L C_Small C39
 U 1 1 5B261795
 P 6750 3200
 F 0 "C39" V 6850 3150 50  0000 L CNN
@@ -589,7 +626,7 @@ F 7 "399-11552-1-ND" H 6850 3250 50  0001 C CNN "SupplierPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L openlst-hw:C_Small C26
+L C_Small C26
 U 1 1 5B262592
 P 4650 2550
 F 0 "C26" H 4660 2620 50  0000 L CNN
@@ -604,7 +641,7 @@ F 7 "478-9382-1-ND" H 4660 2720 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:CC1110 U2
+L CC1110 U2
 U 1 1 5A9A1FAD
 P 2850 4050
 F 0 "U2" H 2250 5500 60  0000 C CNN
@@ -619,7 +656,7 @@ F 7 "296-38560-1-ND" H 2250 5600 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:TLV803S U5
+L TLV803S U5
 U 1 1 5A9A1FB1
 P 4900 5250
 F 0 "U5" H 5050 5550 60  0000 C CNN
@@ -634,7 +671,7 @@ F 7 "296-29196-1-ND" H 4900 5250 60  0001 C CNN "SupplierPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:R R18
+L R R18
 U 1 1 5A9A1FD1
 P 4200 5050
 F 0 "R18" V 4280 5050 50  0000 C CNN
@@ -649,7 +686,7 @@ F 7 "311-1.0KGRCT-ND" H 4280 5150 50  0001 C CNN "SupplierPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:C_Small C22
+L C_Small C22
 U 1 1 5A9A1FD0
 P 4200 5400
 F 0 "C22" H 4210 5470 50  0000 L CNN
@@ -664,7 +701,7 @@ F 7 "490-8016-1-ND" H 4210 5570 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:R R16
+L R R16
 U 1 1 5A9A1FDC
 P 3850 5200
 F 0 "R16" V 3750 5200 50  0000 C CNN
@@ -679,7 +716,7 @@ F 7 "RMCF0603FT56K0CT-ND" H 3930 5300 50  0001 C CNN "SupplierPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:C_Small C19
+L C_Small C19
 U 1 1 5A9A1FDB
 P 3600 5200
 F 0 "C19" H 3600 5300 50  0000 L CNN
@@ -694,7 +731,7 @@ F 7 "490-8016-1-ND" H 3610 5370 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR025
+L GND #PWR025
 U 1 1 5A9A1FDD
 P 3600 5450
 F 0 "#PWR025" H 3600 5200 50  0001 C CNN
@@ -705,7 +742,7 @@ F 3 "" H 3600 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR026
+L GND #PWR026
 U 1 1 5A9A1FD2
 P 4200 5600
 F 0 "#PWR026" H 4200 5350 50  0001 C CNN
@@ -716,7 +753,7 @@ F 3 "" H 4200 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR027
+L GND #PWR027
 U 1 1 5A9A1FCF
 P 4900 5600
 F 0 "#PWR027" H 4900 5350 50  0001 C CNN
@@ -727,7 +764,7 @@ F 3 "" H 4900 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:Conn_02x05_Odd_Even J2
+L Conn_02x05_Odd_Even J2
 U 1 1 5B265FE8
 P 1450 6050
 F 0 "J2" H 1500 6350 50  0000 C CNN
@@ -742,7 +779,7 @@ F 7 "SAM9076-ND" H 1450 6050 60  0001 C CNN "SupplierPN"
 	1    0    0    1   
 $EndComp
 $Comp
-L openlst-hw:R R5
+L R R5
 U 1 1 5B26973A
 P 1700 3850
 F 0 "R5" V 1750 4000 50  0000 C CNN
@@ -757,7 +794,7 @@ F 7 "YAG3561CT-ND" H 1750 4100 50  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:R R6
+L R R6
 U 1 1 5B26A1E9
 P 1700 3950
 F 0 "R6" V 1750 4100 50  0000 C CNN
@@ -772,7 +809,7 @@ F 7 "YAG3561CT-ND" H 1750 4200 50  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:R R7
+L R R7
 U 1 1 5B26A329
 P 1700 4050
 F 0 "R7" V 1750 4200 50  0000 C CNN
@@ -787,7 +824,7 @@ F 7 "YAG3561CT-ND" H 1750 4300 50  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:R R8
+L R R8
 U 1 1 5B26A469
 P 1700 4150
 F 0 "R8" V 1750 4300 50  0000 C CNN
@@ -802,7 +839,7 @@ F 7 "YAG3561CT-ND" H 1750 4400 50  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:R R9
+L R R9
 U 1 1 5B26CB69
 P 1700 4750
 F 0 "R9" V 1750 4950 50  0000 C CNN
@@ -817,7 +854,7 @@ F 7 "YAG3561CT-ND" H 1750 5050 50  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:R R10
+L R R10
 U 1 1 5B26CB6F
 P 1700 4850
 F 0 "R10" V 1750 5050 50  0000 C CNN
@@ -832,7 +869,7 @@ F 7 "YAG3561CT-ND" H 1750 5150 50  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:R R11
+L R R11
 U 1 1 5B26CB75
 P 1700 4950
 F 0 "R11" V 1750 5150 50  0000 C CNN
@@ -847,7 +884,7 @@ F 7 "YAG3561CT-ND" H 1750 5250 50  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:R R12
+L R R12
 U 1 1 5B26CB7B
 P 1700 5050
 F 0 "R12" V 1750 5250 50  0000 C CNN
@@ -862,7 +899,7 @@ F 7 "YAG3561CT-ND" H 1750 5350 50  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:+3.3V #PWR028
+L +3.3V #PWR028
 U 1 1 5B275E6F
 P 6400 3450
 F 0 "#PWR028" H 6400 3300 50  0001 C CNN
@@ -873,7 +910,7 @@ F 3 "" H 6400 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR029
+L GND #PWR029
 U 1 1 5B2774A1
 P 5950 3950
 F 0 "#PWR029" H 5950 3700 50  0001 C CNN
@@ -884,7 +921,7 @@ F 3 "" H 5950 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C31
+L C_Small C31
 U 1 1 5B27749B
 P 5950 3850
 F 0 "C31" H 5960 3920 50  0000 L CNN
@@ -899,7 +936,7 @@ F 7 "478-9382-1-ND" H 5960 4020 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:R R28
+L R R28
 U 1 1 5B278685
 P 6550 4150
 F 0 "R28" V 6630 4150 50  0000 C CNN
@@ -914,7 +951,7 @@ F 7 "311-1.0KGRCT-ND" H 6630 4250 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR030
+L GND #PWR030
 U 1 1 5B27C876
 P 6550 4300
 F 0 "#PWR030" H 6550 4050 50  0001 C CNN
@@ -925,7 +962,7 @@ F 3 "" H 6550 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:R R26
+L R R26
 U 1 1 5B27C97D
 P 6200 3700
 F 0 "R26" V 6280 3700 50  0000 C CNN
@@ -940,7 +977,7 @@ F 7 "311-1.0KGRCT-ND" H 6280 3800 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:R R1
+L R R1
 U 1 1 5B27F7F5
 P 750 5000
 F 0 "R1" V 830 5000 50  0000 C CNN
@@ -955,7 +992,7 @@ F 7 "311-1.0KGRCT-ND" H 830 5100 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:R R2
+L R R2
 U 1 1 5B27FFEB
 P 850 5450
 F 0 "R2" V 930 5450 50  0000 C CNN
@@ -970,7 +1007,7 @@ F 7 "311-1.0KGRCT-ND" H 930 5550 50  0001 C CNN "SupplierPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:+3.3V #PWR031
+L +3.3V #PWR031
 U 1 1 5B280ABF
 P 750 4800
 F 0 "#PWR031" H 750 4650 50  0001 C CNN
@@ -981,7 +1018,7 @@ F 3 "" H 750 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR032
+L GND #PWR032
 U 1 1 5B283447
 P 1200 6300
 F 0 "#PWR032" H 1200 6050 50  0001 C CNN
@@ -992,7 +1029,7 @@ F 3 "" H 1200 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:+3.3V #PWR033
+L +3.3V #PWR033
 U 1 1 5B283E41
 P 1750 6250
 F 0 "#PWR033" H 1750 6100 50  0001 C CNN
@@ -1003,7 +1040,7 @@ F 3 "" H 1750 6250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:FOX924 U4
+L FOX924 U4
 U 1 1 5B2892BE
 P 5900 5100
 F 0 "U4" H 5650 5350 60  0000 C CNN
@@ -1018,7 +1055,7 @@ F 7 "631-1075-1-ND" H 5900 5100 60  0001 C CNN "SupplierPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:R R17
+L R R17
 U 1 1 5B28AE3D
 P 5400 5000
 F 0 "R17" V 5480 5000 50  0000 C CNN
@@ -1033,7 +1070,7 @@ F 7 "YAG3561CT-ND" H 5480 5100 50  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:+3.3V #PWR034
+L +3.3V #PWR034
 U 1 1 5B28C176
 P 6450 4900
 F 0 "#PWR034" H 6450 4750 50  0001 C CNN
@@ -1044,7 +1081,7 @@ F 3 "" H 6450 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C23
+L C_Small C23
 U 1 1 5A9A1FD8
 P 4050 3500
 F 0 "C23" H 3850 3450 50  0000 L CNN
@@ -1059,7 +1096,7 @@ F 7 "490-3097-1-ND" H 3850 3550 50  0001 C CNN "SupplierPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:GND #PWR035
+L GND #PWR035
 U 1 1 5B28C660
 P 6450 5300
 F 0 "#PWR035" H 6450 5050 50  0001 C CNN
@@ -1070,7 +1107,7 @@ F 3 "" H 6450 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C27
+L C_Small C27
 U 1 1 5B28CED5
 P 6450 5100
 F 0 "C27" H 6460 5170 50  0000 L CNN
@@ -1085,7 +1122,7 @@ F 7 "478-9382-1-ND" H 6460 5270 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:+3.3V #PWR036
+L +3.3V #PWR036
 U 1 1 5B28F493
 P 4900 4900
 F 0 "#PWR036" H 4900 4750 50  0001 C CNN
@@ -1096,7 +1133,7 @@ F 3 "" H 4900 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:R R15
+L R R15
 U 1 1 5B290219
 P 3750 4300
 F 0 "R15" V 3650 4300 50  0000 C CNN
@@ -1107,7 +1144,7 @@ F 3 "" H 3750 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:LED D1
+L LED D1
 U 1 1 5B296D47
 P 750 4250
 F 0 "D1" H 900 4150 50  0000 C CNN
@@ -1122,7 +1159,7 @@ F 7 "732-4980-1-ND" H 900 4250 50  0001 C CNN "SupplierPN"
 	1    0    0    1   
 $EndComp
 $Comp
-L openlst-hw:R R3
+L R R3
 U 1 1 5B296D55
 P 1050 4250
 F 0 "R3" V 1100 4400 50  0000 C CNN
@@ -1137,7 +1174,7 @@ F 7 "311-1.0KGRCT-ND" H 1100 4500 50  0001 C CNN "SupplierPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L openlst-hw:LED D2
+L LED D2
 U 1 1 5B296D5B
 P 750 4400
 F 0 "D2" H 800 4500 50  0000 C CNN
@@ -1152,7 +1189,7 @@ F 7 "732-4979-1-ND" H 800 4600 50  0001 C CNN "SupplierPN"
 	1    0    0    1   
 $EndComp
 $Comp
-L openlst-hw:GND #PWR037
+L GND #PWR037
 U 1 1 5B296D61
 P 550 4450
 F 0 "#PWR037" H 550 4200 50  0001 C CNN
@@ -1163,7 +1200,7 @@ F 3 "" H 550 4450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:R R4
+L R R4
 U 1 1 5B296D69
 P 1050 4400
 F 0 "R4" V 1100 4550 50  0000 C CNN
@@ -1178,7 +1215,7 @@ F 7 "311-1.0KGRCT-ND" H 1100 4650 50  0001 C CNN "SupplierPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L openlst-hw:Conn_01x06 J3
+L Conn_01x06 J3
 U 1 1 5B29D837
 P 8050 5350
 F 0 "J3" H 8050 5650 50  0000 C CNN
@@ -1193,7 +1230,7 @@ F 7 "732-5319-ND" H 8050 5750 50  0001 C CNN "SupplierPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR038
+L GND #PWR038
 U 1 1 5B29DFB7
 P 8250 5150
 F 0 "#PWR038" H 8250 4900 50  0001 C CNN
@@ -1204,7 +1241,7 @@ F 3 "" H 8250 5150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L openlst-hw:R R19
+L R R19
 U 1 1 5B29E677
 P 8400 5350
 F 0 "R19" V 8450 5500 50  0000 C CNN
@@ -1215,7 +1252,7 @@ F 3 "" H 8400 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:+3.3V #PWR039
+L +3.3V #PWR039
 U 1 1 5B29F030
 P 8650 5150
 F 0 "#PWR039" H 8650 5000 50  0001 C CNN
@@ -1226,7 +1263,7 @@ F 3 "" H 8650 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:Conn_01x06 J4
+L Conn_01x06 J4
 U 1 1 5B2A137A
 P 8050 6150
 F 0 "J4" H 8050 6450 50  0000 C CNN
@@ -1241,7 +1278,7 @@ F 7 "732-5319-ND" H 8050 6550 50  0001 C CNN "SupplierPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR040
+L GND #PWR040
 U 1 1 5B2A1380
 P 8250 5950
 F 0 "#PWR040" H 8250 5700 50  0001 C CNN
@@ -1252,7 +1289,7 @@ F 3 "" H 8250 5950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L openlst-hw:R R20
+L R R20
 U 1 1 5B2A1386
 P 8400 6150
 F 0 "R20" V 8450 6300 50  0000 C CNN
@@ -1263,7 +1300,7 @@ F 3 "" H 8400 6150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:+3.3V #PWR041
+L +3.3V #PWR041
 U 1 1 5B2A138C
 P 8650 5950
 F 0 "#PWR041" H 8650 5800 50  0001 C CNN
@@ -1274,7 +1311,7 @@ F 3 "" H 8650 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:+3.3V #PWR042
+L +3.3V #PWR042
 U 1 1 5B26FFC2
 P 2650 2100
 F 0 "#PWR042" H 2650 1950 50  0001 C CNN
@@ -1285,7 +1322,7 @@ F 3 "" H 2650 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C1
+L C_Small C1
 U 1 1 5B2B1B62
 P 650 3500
 F 0 "C1" H 660 3570 50  0000 L CNN
@@ -1300,7 +1337,7 @@ F 7 "478-9382-1-ND" H 660 3670 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C10
+L C_Small C10
 U 1 1 5B2B22E7
 P 1750 3500
 F 0 "C10" H 1760 3570 50  0000 L CNN
@@ -1315,7 +1352,7 @@ F 7 "478-9382-1-ND" H 1760 3670 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C2
+L C_Small C2
 U 1 1 5B2B36A5
 P 850 3500
 F 0 "C2" H 860 3570 50  0000 L CNN
@@ -1330,7 +1367,7 @@ F 7 "399-11552-1-ND" H 860 3670 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C7
+L C_Small C7
 U 1 1 5B2B4012
 P 1500 3500
 F 0 "C7" H 1510 3570 50  0000 L CNN
@@ -1345,7 +1382,7 @@ F 7 "399-11552-1-ND" H 1510 3670 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C5
+L C_Small C5
 U 1 1 5B2B4C99
 P 1300 3500
 F 0 "C5" H 1310 3570 50  0000 L CNN
@@ -1360,7 +1397,7 @@ F 7 "478-9382-1-ND" H 1310 3670 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C3
+L C_Small C3
 U 1 1 5B2B4F44
 P 1100 3500
 F 0 "C3" H 1110 3570 50  0000 L CNN
@@ -1375,7 +1412,7 @@ F 7 "478-9382-1-ND" H 1110 3670 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR043
+L GND #PWR043
 U 1 1 5B2B5DBA
 P 650 3700
 F 0 "#PWR043" H 650 3450 50  0001 C CNN
@@ -1386,7 +1423,7 @@ F 3 "" H 650 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C9
+L C_Small C9
 U 1 1 5B2B901C
 P 1650 2350
 F 0 "C9" H 1500 2300 50  0000 L CNN
@@ -1401,7 +1438,7 @@ F 7 "1276-6524-6-ND" H 1500 2400 50  0001 C CNN "SupplierPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:GND #PWR044
+L GND #PWR044
 U 1 1 5B2B9E8B
 P 1650 2500
 F 0 "#PWR044" H 1650 2250 50  0001 C CNN
@@ -1412,7 +1449,7 @@ F 3 "" H 1650 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:R R21
+L R R21
 U 1 1 5B2C4E4A
 P 7100 5400
 F 0 "R21" V 7180 5400 50  0000 C CNN
@@ -1427,7 +1464,7 @@ F 7 "YAG3598CT-ND" H 7180 5500 50  0001 C CNN "SupplierPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:R R22
+L R R22
 U 1 1 5B2C5202
 P 7100 5800
 F 0 "R22" V 7180 5800 50  0000 C CNN
@@ -1442,7 +1479,7 @@ F 7 "311-10KGRCT-ND" H 7180 5900 50  0001 C CNN "SupplierPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:GND #PWR045
+L GND #PWR045
 U 1 1 5B2C537F
 P 7100 5950
 F 0 "#PWR045" H 7100 5700 50  0001 C CNN
@@ -1453,7 +1490,7 @@ F 3 "" H 7100 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:VCC_3V6 #PWR046
+L VCC_3V6 #PWR046
 U 1 1 5B2C54E3
 P 7100 5250
 F 0 "#PWR046" H 7100 5100 50  0001 C CNN
@@ -1464,7 +1501,7 @@ F 3 "" H 7100 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:R R23
+L R R23
 U 1 1 5B2C9AA7
 P 7500 5400
 F 0 "R23" V 7580 5400 50  0000 C CNN
@@ -1479,7 +1516,7 @@ F 7 "YAG3598CT-ND" H 7580 5500 50  0001 C CNN "SupplierPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:R R24
+L R R24
 U 1 1 5B2C9AAD
 P 7500 5800
 F 0 "R24" V 7580 5800 50  0000 C CNN
@@ -1494,7 +1531,7 @@ F 7 "311-10KGRCT-ND" H 7580 5900 50  0001 C CNN "SupplierPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:GND #PWR047
+L GND #PWR047
 U 1 1 5B2C9AB3
 P 7500 5950
 F 0 "#PWR047" H 7500 5700 50  0001 C CNN
@@ -1505,7 +1542,7 @@ F 3 "" H 7500 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:+5V #PWR048
+L +5V #PWR048
 U 1 1 5B2CA0B7
 P 7500 5250
 F 0 "#PWR048" H 7500 5100 50  0001 C CNN
@@ -1516,7 +1553,7 @@ F 3 "" H 7500 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR049
+L GND #PWR049
 U 1 1 5B2D3AFE
 P 8200 1950
 F 0 "#PWR049" H 8200 1700 50  0001 C CNN
@@ -1527,7 +1564,7 @@ F 3 "" H 8200 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:R R36
+L R R36
 U 1 1 5B252414
 P 8750 1950
 F 0 "R36" V 8675 1950 50  0000 C CNN
@@ -1542,7 +1579,7 @@ F 7 "RMCF0603FT5K60CT-ND" H 8675 2050 50  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:R R37
+L R R37
 U 1 1 5B25226A
 P 9150 1950
 F 0 "R37" V 9230 1950 50  0000 C CNN
@@ -1557,7 +1594,7 @@ F 7 "RMCF0603FT3K30CT-ND" H 9230 2050 50  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:+3.3V #PWR050
+L +3.3V #PWR050
 U 1 1 5B2D9A1F
 P 5300 2200
 F 0 "#PWR050" H 5300 2050 50  0001 C CNN
@@ -1568,7 +1605,7 @@ F 3 "" H 5300 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR051
+L GND #PWR051
 U 1 1 5B2DA87E
 P 4650 2650
 F 0 "#PWR051" H 4650 2400 50  0001 C CNN
@@ -1579,7 +1616,7 @@ F 3 "" H 4650 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:+3.3V #PWR052
+L +3.3V #PWR052
 U 1 1 5B2EFA37
 P 5950 7100
 F 0 "#PWR052" H 5950 6950 50  0001 C CNN
@@ -1590,7 +1627,7 @@ F 3 "" H 5950 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C47
+L C_Small C47
 U 1 1 5B30D1AC
 P 1350 2350
 F 0 "C47" H 1150 2300 50  0000 L CNN
@@ -1605,7 +1642,7 @@ F 7 "1276-6524-6-ND" H 1150 2400 50  0001 C CNN "SupplierPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:GND #PWR053
+L GND #PWR053
 U 1 1 5B30D528
 P 1350 2500
 F 0 "#PWR053" H 1350 2250 50  0001 C CNN
@@ -1616,7 +1653,7 @@ F 3 "" H 1350 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C18
+L C_Small C18
 U 1 1 5B32687C
 P 3000 7400
 F 0 "C18" H 3010 7470 50  0000 L CNN
@@ -1631,7 +1668,7 @@ F 7 "490-12283-1-ND" H 3010 7570 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C20
+L C_Small C20
 U 1 1 5B3290F4
 P 3800 7400
 F 0 "C20" H 3810 7470 50  0000 L CNN
@@ -1646,7 +1683,7 @@ F 7 "490-12283-1-ND" H 3810 7570 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:Ferrite_Bead L8
+L Ferrite_Bead L8
 U 1 1 5B3339BF
 P 5100 2250
 F 0 "L8" V 4950 2275 50  0000 C CNN
@@ -1661,7 +1698,7 @@ F 7 "732-4484-1-ND" V 5100 2250 60  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:Ferrite_Bead L3
+L Ferrite_Bead L3
 U 1 1 5B333CCF
 P 2450 2150
 F 0 "L3" V 2300 2175 50  0000 C CNN
@@ -1676,7 +1713,7 @@ F 7 "732-4484-1-ND" V 2450 2150 60  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:Conn_01x03 J5
+L Conn_01x03 J5
 U 1 1 5B31A0A4
 P 2700 6100
 F 0 "J5" H 2700 6300 50  0000 C CNN
@@ -1687,7 +1724,7 @@ F 3 "" H 2700 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:GND #PWR054
+L GND #PWR054
 U 1 1 5B31AA01
 P 2950 6250
 F 0 "#PWR054" H 2950 6000 50  0001 C CNN
@@ -1698,7 +1735,7 @@ F 3 "" H 2950 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:R R14
+L R R14
 U 1 1 5B31CF02
 P 3050 6100
 F 0 "R14" V 3100 6300 50  0000 C CNN
@@ -1713,7 +1750,7 @@ F 7 "YAG3561CT-ND" H 3100 6400 50  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:R R13
+L R R13
 U 1 1 5B31D69E
 P 3050 6000
 F 0 "R13" V 3100 6200 50  0000 C CNN
@@ -1728,7 +1765,7 @@ F 7 "YAG3561CT-ND" H 3100 6300 50  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:SAW-8 U8
+L SAW-8 U8
 U 1 1 5B32AE24
 P 7950 1500
 F 0 "U8" H 7700 1750 60  0000 C CNN
@@ -1741,7 +1778,7 @@ F 5 "STA1120A" H 7700 1850 50  0001 C CNN "ManufPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:R R25
+L R R25
 U 1 1 5B332172
 P 3700 3500
 F 0 "R25" V 3600 3500 50  0000 C CNN
@@ -1752,7 +1789,7 @@ F 3 "" H 3700 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:R R27
+L R R27
 U 1 1 5B33DCC5
 P 4200 4650
 F 0 "R27" V 4280 4650 50  0000 C CNN
@@ -1767,7 +1804,7 @@ F 7 "YAG3598CT-ND" H 4280 4750 50  0001 C CNN "SupplierPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:+3.3V #PWR055
+L +3.3V #PWR055
 U 1 1 5B33E802
 P 4200 4500
 F 0 "#PWR055" H 4200 4350 50  0001 C CNN
@@ -1778,7 +1815,7 @@ F 3 "" H 4200 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:C_Small C6
+L C_Small C6
 U 1 1 5B3494C5
 P 8800 1650
 F 0 "C6" V 8700 1600 50  0000 L CNN
@@ -1793,7 +1830,7 @@ F 7 "478-9382-1-ND" H 8700 1700 50  0001 C CNN "SupplierPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L openlst-hw:C_Small C8
+L C_Small C8
 U 1 1 5B34C3A7
 P 10200 1800
 F 0 "C8" H 10210 1870 50  0000 L CNN
@@ -1808,7 +1845,20 @@ F 7 "478-9382-1-ND" H 10210 1970 50  0001 C CNN "SupplierPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR056
+L RFFM6403 U9
+U 1 1 5B213061
+P 8400 3300
+F 0 "U9" H 7200 4200 60  0000 C CNN
+F 1 "RFFM6403" H 9450 2400 60  0000 C CNN
+F 2 "openlst:Qorvo_LGA_28_ThermalVias" H 8250 3500 60  0001 C CNN
+F 3 "https://www.qorvo.com/products/d/da000805" H 8250 3500 60  0001 C CNN
+F 4 "Qorvo" H 7200 4300 50  0001 C CNN "Manuf"
+F 5 "RFFM6403SB" H 7200 4300 50  0001 C CNN "ManufPN"
+	1    8400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR056
 U 1 1 5B34707E
 P 10000 2000
 F 0 "#PWR056" H 10000 1750 50  0001 C CNN
@@ -1819,7 +1869,7 @@ F 3 "" H 10000 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:VCC_3V6 #PWR057
+L VCC_3V6 #PWR057
 U 1 1 5B347E84
 P 10000 1600
 F 0 "#PWR057" H 10000 1450 50  0001 C CNN
@@ -1928,7 +1978,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 3500 9950 3500
 Wire Wire Line
-	8900 4250 8900 4300
+	8900 4250 8900 4350
 Wire Wire Line
 	8800 4300 8800 4250
 Wire Wire Line
@@ -1954,23 +2004,23 @@ Wire Wire Line
 Wire Wire Line
 	4200 5500 4200 5600
 Wire Wire Line
-	4200 5200 4200 5250
+	4200 5200 4200 5300
 Wire Wire Line
 	4700 3100 4900 3100
 Wire Wire Line
 	4500 3100 4450 3100
 Wire Wire Line
-	4450 2950 4450 3100
+	4450 2950 4450 3250
 Wire Wire Line
 	4450 2950 4350 2950
 Wire Wire Line
 	4450 3250 4400 3250
 Wire Wire Line
-	3900 3250 4050 3250
+	3900 3250 4100 3250
 Wire Wire Line
 	4050 3250 4050 3400
 Wire Wire Line
-	3900 2950 4050 2950
+	3900 2950 4150 2950
 Wire Wire Line
 	4050 2950 4050 2800
 Wire Wire Line
@@ -1984,7 +2034,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 3250 3900 3150
 Wire Wire Line
-	3600 5300 3600 5400
+	3600 5300 3600 5450
 Wire Wire Line
 	3550 5050 3600 5050
 Wire Wire Line
@@ -1998,49 +2048,49 @@ Wire Wire Line
 Wire Wire Line
 	3850 4850 3850 5050
 Wire Wire Line
-	4200 4800 4200 4850
+	4200 4800 4200 4900
 Wire Wire Line
 	4200 4850 4700 4850
 Wire Wire Line
-	4750 7100 4750 7200
+	4750 7100 4750 7400
 Wire Wire Line
 	5250 7600 5250 7500
 Wire Wire Line
 	5700 7200 5700 7400
 Wire Wire Line
-	5950 7100 5950 7200
+	5950 7100 5950 7400
 Wire Wire Line
 	900  7200 800  7200
 Wire Wire Line
 	800  7200 800  7550
 Wire Wire Line
-	1200 7200 1250 7200
+	1200 7200 1600 7200
 Wire Wire Line
 	1900 7200 2300 7200
 Wire Wire Line
-	2300 7100 2300 7200
+	2300 7100 2300 7250
 Wire Wire Line
 	2300 7450 2300 7550
 Wire Wire Line
 	1250 7250 1250 7200
 Wire Wire Line
-	7800 4300 7900 4300
+	7800 4300 9050 4300
 Wire Wire Line
-	3000 7100 3000 7200
+	3000 7100 3000 7300
 Wire Wire Line
 	3000 7200 3100 7200
 Wire Wire Line
-	3700 7200 3800 7200
+	3700 7200 3950 7200
 Wire Wire Line
 	3950 7200 3950 7100
 Wire Wire Line
 	3800 7300 3800 7200
 Wire Wire Line
-	8900 1950 8950 1950
+	8900 1950 9000 1950
 Wire Wire Line
-	8950 1650 8950 1950
+	8950 1650 8950 2250
 Wire Wire Line
-	8600 1650 8600 1950
+	8600 1650 8600 2200
 Wire Wire Line
 	6850 2700 6950 2700
 Wire Wire Line
@@ -2104,7 +2154,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 3900 6200 3850
 Wire Wire Line
-	5950 3500 6200 3500
+	5950 3500 6750 3500
 Wire Wire Line
 	6400 3500 6400 3450
 Wire Wire Line
@@ -2136,19 +2186,19 @@ Wire Wire Line
 Wire Wire Line
 	6350 5000 6350 4950
 Wire Wire Line
-	6450 4900 6450 4950
+	6450 4900 6450 5000
 Wire Wire Line
 	6300 5200 6350 5200
 Wire Wire Line
 	6350 5200 6350 5250
 Wire Wire Line
-	6450 5200 6450 5250
+	6450 5200 6450 5300
 Wire Wire Line
 	3550 4950 4050 4950
 Wire Wire Line
 	4050 4950 4050 5250
 Wire Wire Line
-	4050 5250 4200 5250
+	4050 5250 4500 5250
 Wire Wire Line
 	3550 4350 3600 4350
 Wire Wire Line
@@ -2162,7 +2212,7 @@ Wire Wire Line
 Wire Wire Line
 	600  4400 550  4400
 Wire Wire Line
-	550  4250 550  4400
+	550  4250 550  4450
 Wire Wire Line
 	600  4250 550  4250
 Wire Wire Line
@@ -2198,21 +2248,21 @@ Wire Wire Line
 Wire Wire Line
 	2000 3450 2050 3450
 Wire Wire Line
-	1750 3350 2000 3350
+	1750 3350 2050 3350
 Wire Wire Line
-	1500 3250 2000 3250
+	1500 3250 2050 3250
 Wire Wire Line
-	1300 3150 2000 3150
+	1300 3150 2050 3150
 Wire Wire Line
-	1100 3050 2000 3050
+	1100 3050 2050 3050
 Wire Wire Line
-	850  2950 2000 2950
+	850  2950 2050 2950
 Wire Wire Line
 	2000 2850 2050 2850
 Wire Wire Line
-	650  2750 2000 2750
+	650  2750 2050 2750
 Wire Wire Line
-	2000 2150 2000 2750
+	2000 2150 2000 3450
 Wire Wire Line
 	1750 3350 1750 3400
 Wire Wire Line
@@ -2226,9 +2276,9 @@ Wire Wire Line
 Wire Wire Line
 	1100 3400 1100 3050
 Wire Wire Line
-	650  3600 650  3650
+	650  3600 650  3700
 Wire Wire Line
-	650  3650 850  3650
+	650  3650 1750 3650
 Wire Wire Line
 	850  3650 850  3600
 Wire Wire Line
@@ -2244,7 +2294,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 2150 2600 2150
 Wire Wire Line
-	1350 2150 1650 2150
+	1350 2150 2300 2150
 Wire Wire Line
 	1650 2150 1650 2250
 Wire Wire Line
@@ -2254,11 +2304,11 @@ Wire Wire Line
 Wire Wire Line
 	2050 3750 1850 3750
 Wire Wire Line
-	7100 5550 7100 5600
+	7100 5550 7100 5650
 Wire Wire Line
 	7100 5600 6900 5600
 Wire Wire Line
-	7500 5550 7500 5600
+	7500 5550 7500 5650
 Wire Wire Line
 	7500 5600 7300 5600
 Wire Wire Line
@@ -2268,9 +2318,9 @@ Wire Wire Line
 Wire Wire Line
 	7900 1900 7900 1850
 Wire Wire Line
-	7700 1900 7800 1900
+	7700 1900 8200 1900
 Wire Wire Line
-	8200 1850 8200 1900
+	8200 1850 8200 1950
 Wire Wire Line
 	8100 1850 8100 1900
 Wire Wire Line
@@ -2282,7 +2332,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 2450 4650 2250
 Wire Wire Line
-	4650 2250 4850 2250
+	4650 2250 4950 2250
 Wire Wire Line
 	4850 2250 4850 2850
 Wire Wire Line
@@ -2316,7 +2366,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 3650 5250 3650
 Wire Wire Line
-	5550 7200 5700 7200
+	5550 7200 5950 7200
 Wire Notes Line
 	550  6650 6150 6650
 Wire Notes Line
@@ -2366,33 +2416,33 @@ Wire Wire Line
 Wire Wire Line
 	8700 1650 8600 1650
 Wire Wire Line
-	8900 1650 8950 1650
+	8900 1650 9400 1650
 Wire Wire Line
 	9800 1900 9800 1950
 Wire Wire Line
-	9800 1950 10000 1950
+	9800 1950 10200 1950
 Wire Wire Line
 	10200 1950 10200 1900
 Wire Wire Line
-	10000 1900 10000 1950
+	10000 1900 10000 2000
 Wire Wire Line
 	9800 1700 9800 1650
 Wire Wire Line
-	9600 1650 9800 1650
+	9600 1650 10200 1650
 Wire Wire Line
 	10200 1650 10200 1700
 Wire Wire Line
-	10000 1600 10000 1650
+	10000 1600 10000 1700
 Wire Wire Line
 	9100 2250 9100 2200
 Wire Wire Line
-	9100 2200 9250 2200
+	9100 2200 9400 2200
 Wire Wire Line
-	9400 1950 9400 2200
+	9400 1950 9400 2250
 Wire Wire Line
 	9250 2250 9250 2200
 Wire Wire Line
-	9300 1950 9400 1950
+	9300 1950 9600 1950
 Wire Wire Line
 	9600 1950 9600 1650
 Connection ~ 8900 4300
@@ -2406,6 +2456,7 @@ Connection ~ 8200 4300
 Connection ~ 8100 4300
 Connection ~ 8000 4300
 Connection ~ 7900 4300
+Connection ~ 7800 4300
 Connection ~ 4450 3100
 Connection ~ 4050 2950
 Connection ~ 4050 3250
@@ -2466,7 +2517,7 @@ NoConn ~ 9900 3850
 NoConn ~ 9900 3950
 NoConn ~ 9900 4050
 $Comp
-L openlst-hw:Mounting_Hole_PAD MK1
+L Mounting_Hole_PAD MK1
 U 1 1 5B40F0F1
 P 9850 5050
 F 0 "MK1" H 9850 5300 50  0000 C CNN
@@ -2477,7 +2528,7 @@ F 3 "" H 9850 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR058
+L GND #PWR058
 U 1 1 5B410468
 P 9850 5450
 F 0 "#PWR058" H 9850 5200 50  0001 C CNN
@@ -2488,7 +2539,7 @@ F 3 "" H 9850 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR059
+L GND #PWR059
 U 1 1 5B41063B
 P 10150 5350
 F 0 "#PWR059" H 10150 5100 50  0001 C CNN
@@ -2499,7 +2550,7 @@ F 3 "" H 10150 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:R R29
+L R R29
 U 1 1 5B411691
 P 9850 5300
 F 0 "R29" V 9750 5300 50  0000 C CNN
@@ -2510,7 +2561,7 @@ F 3 "" H 9850 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:R R31
+L R R31
 U 1 1 5B411B29
 P 10150 5200
 F 0 "R31" V 10050 5200 50  0000 C CNN
@@ -2521,7 +2572,7 @@ F 3 "" H 10150 5200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:Mounting_Hole_PAD MK3
+L Mounting_Hole_PAD MK3
 U 1 1 5B41290B
 P 10150 4950
 F 0 "MK3" H 10150 5200 50  0000 C CNN
@@ -2532,7 +2583,7 @@ F 3 "" H 10150 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:Mounting_Hole_PAD MK2
+L Mounting_Hole_PAD MK2
 U 1 1 5B412DBD
 P 9850 6000
 F 0 "MK2" H 9850 6250 50  0000 C CNN
@@ -2543,7 +2594,7 @@ F 3 "" H 9850 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR060
+L GND #PWR060
 U 1 1 5B412DC3
 P 9850 6400
 F 0 "#PWR060" H 9850 6150 50  0001 C CNN
@@ -2554,7 +2605,7 @@ F 3 "" H 9850 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:GND #PWR061
+L GND #PWR061
 U 1 1 5B412DC9
 P 10150 6300
 F 0 "#PWR061" H 10150 6050 50  0001 C CNN
@@ -2565,7 +2616,7 @@ F 3 "" H 10150 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L openlst-hw:R R30
+L R R30
 U 1 1 5B412DCF
 P 9850 6250
 F 0 "R30" V 9750 6250 50  0000 C CNN
@@ -2576,7 +2627,7 @@ F 3 "" H 9850 6250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:R R32
+L R R32
 U 1 1 5B412DD5
 P 10150 6150
 F 0 "R32" V 10050 6150 50  0000 C CNN
@@ -2587,7 +2638,7 @@ F 3 "" H 10150 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L openlst-hw:Mounting_Hole_PAD MK4
+L Mounting_Hole_PAD MK4
 U 1 1 5B412DDB
 P 10150 5900
 F 0 "MK4" H 10150 6150 50  0000 C CNN
@@ -2600,7 +2651,7 @@ $EndComp
 Wire Wire Line
 	850  5150 850  5300
 $Comp
-L openlst-hw:GND #PWR062
+L GND #PWR062
 U 1 1 5B6345DF
 P 850 5600
 F 0 "#PWR062" H 850 5350 50  0001 C CNN
@@ -2618,157 +2669,4 @@ Text Notes 4700 3050 0    60   ~ 0
 Route as\n50 ohm
 Text Notes 9850 3300 0    60   ~ 0
 Route as\n50 ohm
-Wire Wire Line
-	8900 4300 8900 4350
-Wire Wire Line
-	8900 4300 9050 4300
-Wire Wire Line
-	8800 4300 8900 4300
-Wire Wire Line
-	8700 4300 8800 4300
-Wire Wire Line
-	8600 4300 8700 4300
-Wire Wire Line
-	8500 4300 8600 4300
-Wire Wire Line
-	8400 4300 8500 4300
-Wire Wire Line
-	8300 4300 8400 4300
-Wire Wire Line
-	8200 4300 8300 4300
-Wire Wire Line
-	8100 4300 8200 4300
-Wire Wire Line
-	8000 4300 8100 4300
-Wire Wire Line
-	7900 4300 8000 4300
-Wire Wire Line
-	4450 3100 4450 3250
-Wire Wire Line
-	4050 2950 4150 2950
-Wire Wire Line
-	4050 3250 4100 3250
-Wire Wire Line
-	3600 5400 3600 5450
-Wire Wire Line
-	4200 5250 4200 5300
-Wire Wire Line
-	4200 5250 4500 5250
-Wire Wire Line
-	4750 7200 4750 7400
-Wire Wire Line
-	5700 7200 5950 7200
-Wire Wire Line
-	5950 7200 5950 7400
-Wire Wire Line
-	2300 7200 2300 7250
-Wire Wire Line
-	1250 7200 1600 7200
-Wire Wire Line
-	3000 7200 3000 7300
-Wire Wire Line
-	3800 7200 3950 7200
-Wire Wire Line
-	8950 1950 9000 1950
-Wire Wire Line
-	8950 1950 8950 2250
-Wire Wire Line
-	6200 3500 6400 3500
-Wire Wire Line
-	6400 3500 6750 3500
-Wire Wire Line
-	6450 4950 6450 5000
-Wire Wire Line
-	6450 5250 6450 5300
-Wire Wire Line
-	550  4400 550  4450
-Wire Wire Line
-	2000 3350 2050 3350
-Wire Wire Line
-	2000 3350 2000 3450
-Wire Wire Line
-	2000 3250 2050 3250
-Wire Wire Line
-	2000 3250 2000 3350
-Wire Wire Line
-	2000 3150 2050 3150
-Wire Wire Line
-	2000 3150 2000 3250
-Wire Wire Line
-	2000 3050 2050 3050
-Wire Wire Line
-	2000 3050 2000 3150
-Wire Wire Line
-	2000 2950 2050 2950
-Wire Wire Line
-	2000 2950 2000 3050
-Wire Wire Line
-	2000 2850 2000 2950
-Wire Wire Line
-	2000 2750 2050 2750
-Wire Wire Line
-	2000 2750 2000 2850
-Wire Wire Line
-	650  3650 650  3700
-Wire Wire Line
-	850  3650 1100 3650
-Wire Wire Line
-	1100 3650 1300 3650
-Wire Wire Line
-	1300 3650 1500 3650
-Wire Wire Line
-	1500 3650 1750 3650
-Wire Wire Line
-	2000 2150 2300 2150
-Wire Wire Line
-	7100 5600 7100 5650
-Wire Wire Line
-	7500 5600 7500 5650
-Wire Wire Line
-	8200 1900 8200 1950
-Wire Wire Line
-	8100 1900 8200 1900
-Wire Wire Line
-	8000 1900 8100 1900
-Wire Wire Line
-	4850 2250 4950 2250
-Wire Wire Line
-	1650 2150 2000 2150
-Wire Wire Line
-	7900 1900 8000 1900
-Wire Wire Line
-	7800 1900 7900 1900
-Wire Wire Line
-	4200 4850 4200 4900
-Wire Wire Line
-	8600 1950 8600 2200
-Wire Wire Line
-	8950 1650 9400 1650
-Wire Wire Line
-	10000 1950 10200 1950
-Wire Wire Line
-	10000 1950 10000 2000
-Wire Wire Line
-	10000 1650 10200 1650
-Wire Wire Line
-	10000 1650 10000 1700
-Wire Wire Line
-	9250 2200 9400 2200
-Wire Wire Line
-	9400 2200 9400 2250
-Wire Wire Line
-	9800 1650 10000 1650
-Wire Wire Line
-	9400 1950 9600 1950
-$Comp
-L openlst-hw:RFFM6406 U?
-U 1 1 60BE7952
-P 8400 3300
-F 0 "U?" H 9944 3403 60  0000 L CNN
-F 1 "RFFM6406" H 9944 3297 60  0000 L CNN
-F 2 "openlst:Qorvo_LGA_28" H 8250 3500 60  0001 C CNN
-F 3 "" H 8250 3500 60  0001 C CNN
-	1    8400 3300
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
