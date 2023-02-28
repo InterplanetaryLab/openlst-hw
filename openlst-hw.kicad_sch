@@ -4043,10 +4043,6 @@
     (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
     (uuid 050390ef-671c-4920-b7d7-ccfea9225e36)
   )
-  (text "Control Output" (at 27.5844 220.345 0)
-    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
-    (uuid 12b7d70b-2274-4dee-a4ce-15ca10fc065f)
-  )
   (text "Swapped LDO for LT1685 which should have better drop out vs temp."
     (at 266.0904 211.074 0)
     (effects (font (size 1.524 1.524) italic) (justify left bottom))
